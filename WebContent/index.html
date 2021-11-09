@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title> Registration Form </title>
+</head>
+<body class="container">
+	<marquee width="100%" behavior="alternate" bgcolor="pink"> Login to our portal </marquee>  
+	<br>
+	<br>
+	<form action="Servlet1" method="post">
+	<div class="container">
+		<table border="1" align="center">
+			<tr>
+				<td>
+					Enter Your Name : 
+				</td>
+				<td>
+					<input type="text" name="user_name" placeholder="Enter name here">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Enter Your Password : 
+				</td>
+				<td>
+					<input type="password" name="user_password" placeholder="Enter pass here">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Enter Your Email : 
+				</td>
+				<td>
+					<input type="Email" name="user_email" placeholder="Enter email here">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Select Your Gender : 
+				</td>
+				<td>
+					<input type="radio" name="user_gender" value="male">Male &nbsp; &nbsp; <input type="radio" name="user_gender" value="female">Female
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Enter Your Course : 
+				</td>
+				<td>
+					<select name="user_course">
+						<option value="java">Java</option>
+						<option value="kotlin">Kotlin</option>
+						<option value="android">Android</option>
+						<option value="php">Php</option>
+						<option value="python">Python</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+			<td> <input type="checkbox" value="checked" name="condition"></td>
+			<td> All details filled </td>
+			</tr>
+		</table>
+	</div>
+	<br>
+	<center>
+	<input type="submit" value="login">
+	</center>
+	</form>
+	<br>
+	<marquee width="100%" behavior="alternate" bgcolor="pink"> Login to our portal </marquee>  
+</body>
+</html>
